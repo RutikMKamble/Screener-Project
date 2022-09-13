@@ -1,0 +1,31 @@
+.terms-page{
+    padding: 2rem 5rem;
+}
+.terms-page h2{
+    font-size: 2rem;
+}
+.terms-page p{
+    padding: 1rem 0;
+}
+.text-list h2{
+   font-size: 1.5rem !important;
+   opacity: 0.8;
+}
+@media (max-width:700px) {
+    .terms-page{
+        padding: 2rem;
+    }
+}
+@media (max-width:500px) {
+    .terms-page h2{
+        font-size: 1.5rem;
+    }
+    .terms-page{
+        padding: 1rem;
+    }
+}
+@media (max-width:300px) {
+    .terms-page{
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,60 @@
+.whatApp-div{
+    padding: 2rem 10rem;
+    display: grid;
+}
+.whatApp-div div form{
+    display: grid;
+}
+.whatApp-div h3{
+    font-size: 1.6rem;
+    padding-bottom: 0.4rem;
+}
+.whatApp-div p{
+    opacity: 0.7;
+    padding-bottom: 1.5rem;
+}
+.form-div label {
+  padding: 0.5rem  0;
+}
+.form-div input{
+ height: 2rem;
+ width: 30rem;
+ resize: none;
+ padding: 0 0.5rem;
+}
+.form-div textarea{
+    height: 4rem;
+    width: 30rem;
+    padding: 0.5rem;
+    resize: none;
+}
+.whatsApp-btn{
+    padding: 1rem 0;
+
+}
+.whatApp-div .btn{
+    width: 7rem;
+    padding: 0.3rem 0rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(75, 190, 75);
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width:800px) {
+    .whatApp-div{
+        padding: 2rem;
+    }
+}
+@media (max-width:500px) {
+    .whatApp-div{
+        padding: 0.5rem;
+    }
+    .form-div input{
+        width: auto;
+    }
+    .form-div textarea{
+        width: auto;
+    }
+}

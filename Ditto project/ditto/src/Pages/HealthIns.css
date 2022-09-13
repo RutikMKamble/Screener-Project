@@ -1,0 +1,41 @@
+.healthIns {
+  padding: 2rem 5rem;
+  text-align: center;
+}
+.healthIns h3{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem 1rem;
+}
+.healthIns div video{
+    width: 70%;
+}
+.health-first-text{
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.sayNo-text{
+    padding-top: 3rem;
+}
+
+
+@media (max-width:768px) {
+    .healthIns{
+        padding: 2rem 3rem;
+    }
+
+}
+
+@media (max-width:500px) {
+    .healthIns{
+        padding: 1rem;
+    }
+    .healthIns h3{
+        font-size: 1.2rem;
+    }
+    .health-first-text{
+        font-size: small;
+    }
+}

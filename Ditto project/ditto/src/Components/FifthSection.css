@@ -1,0 +1,85 @@
+/* #243C62 */
+
+.five-sec-div {
+    padding: 2rem 5rem;
+    background-color: #EAF6F6;
+}
+
+.five-sec-div-div {
+    background-color: #243C62;
+    color: white;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10rem;
+}
+
+.why-text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.if-text {
+    color: rgb(203, 205, 207);
+    padding-bottom: 1rem;
+}
+
+.why-list li {
+    list-style-type: none;
+    color: rgb(203, 205, 207);
+    padding: 0.5rem 1rem;
+}
+
+.five-sec-nxt-div div {
+    margin: 1rem 0;
+    background-color: #EAF6F6;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.five-sec-nxt-div div p {
+    opacity: 0.8;
+}
+
+@media (max-width:1040px) {
+    .five-sec-div-div {
+        grid-column-gap: 2rem;
+    }
+}
+
+@media (max-width:844px) {
+    .five-sec-div {
+        padding: 2rem;
+    }
+
+    .five-sec-div-div {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:923px) {
+    .five-sec-div-div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .why-text {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .five-sec-div-div {
+        padding: 2rem 1.2rem;
+    }
+    .why-list li {
+        padding: 0.5rem 0.2rem;
+    }
+    .five-sec-div{
+        padding: 0.7rem;
+    }
+    .if-text   , .why-list li , .five-sec-nxt-div div p  {
+        font-size: smaller;
+    }
+}

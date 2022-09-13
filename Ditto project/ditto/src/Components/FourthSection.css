@@ -1,0 +1,83 @@
+.fourth-sec-wrapper {
+    background-color: #EAF6F6;
+    padding-bottom: 2rem;
+}
+
+.fourth-sec-main-div {
+    background-color: white;
+    margin: 0rem 5rem;
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+    padding-bottom: 1rem;
+}
+
+.fourth-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem 0;
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+}
+
+.fourth-sec-wrapper .fourth-sec-main-div div h3 {
+    font-size: 1.4rem;
+    padding-bottom: 1.2rem;
+}
+
+.fourth-sec-wrapper .fourth-sec-main-div div p {
+    color: rgba(81, 99, 111);
+    font-size: small;
+}
+
+.fourth-sec-wrapper .fourth-sec-main-div .fourth-flex p {
+    color: rgba(81, 99, 111);
+    font-size: small;
+}
+
+.fourth-sec-wrapper .fourth-sec-main-div .fourth-flex h4 {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.fourth-sec-btn-1 {
+    padding: 0.6rem 2rem;
+    margin-right: 2rem;
+    line-height: 1;
+    font-weight: 600;
+    border: none;
+    background-color: #22A2F8;
+    color: white;
+    border-radius: 10px;
+}
+
+.fourth-sec-btn-2 {
+    padding: 0.6rem 2rem;
+    line-height: 1;
+    background-color: #54C796;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+@media (max-width:779px) {
+    .fourth-sec-main-div {
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width:564px) {
+    .fourth-sec-main-div {
+        margin: 0 1rem;
+        padding: 2rem 2rem;
+    }
+
+    .fourth-sec-btn {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .fourth-sec-btn-2 {
+        padding: 0.6rem 2.3rem;
+    }
+}

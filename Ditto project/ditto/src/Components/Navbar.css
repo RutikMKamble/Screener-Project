@@ -1,0 +1,120 @@
+.navbar-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1rem;
+}
+
+.logo-img {
+    width: 70px;
+}
+
+.menuList button {
+    margin: 0 0.5rem;
+    padding: 0.4rem 0.55rem;
+    line-height: 1;
+    font-size: 1rem;
+}
+
+.hireBtn {
+    font-weight: 600;
+    background-color: rgba(220, 237, 255);
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.buy-ins-btn {
+    font-weight: 500;
+    background-color: rgb(34, 162, 248);
+    color: aliceblue;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.hotLine-btn {
+    color: rgb(65, 65, 71);
+    background-color: rgba(245, 246, 247);
+    border-radius: 0.25rem;
+    border: none;
+    font-weight: 600;
+}
+
+.no-css-btn {
+    background-color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.MenuIcon {
+    width: 1.5rem;
+    align-items: center;
+}
+
+.menu-Icon-Div {
+    display: none;
+}
+
+@media (max-width:960px) {
+    .menuList {
+        display: none;
+    }
+
+    .menu-Icon-Div {
+        display: block;
+    }
+
+    .showNavbarOn {
+        display: grid;
+        background-color: blueviolet;
+        position: absolute;
+        padding: 40px;
+        font-size: 1.2rem;
+        left: 1px;
+        border-radius: 20px;
+        margin-top: 2rem;
+        width: 70%;
+        z-index: 9;
+    }
+
+    .menuList button,
+    .design {
+        margin: 0.4rem 0.5rem;
+        padding: 1rem 8rem;
+        line-height: 1;
+        width: 80%;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 46px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+    .menuList button {
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+}
+
+@media (max-width:470px) {
+    .menuList button {
+        font-size: 1rem;
+        padding: 0.5rem 0rem;
+        width: 100%;
+    }
+    .showNavbarOn{
+        padding: 35px;
+    }
+}
+
+
+
+/* @media (min-width:480px) {
+    .menuList button{
+     padding: 1rem 1rem;
+    }
+} */

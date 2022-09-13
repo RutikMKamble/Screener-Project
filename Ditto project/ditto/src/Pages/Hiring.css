@@ -1,0 +1,52 @@
+.Hire-img{
+    width: 100%;
+}
+.hire-div{
+    padding: 2rem 8rem;
+}
+.hire-div h2{
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.hire-div div div{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.hire-div div div select{
+    padding: 0.5rem 1rem; 
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.search-box{
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid green;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.job-title{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+@media (max-width:850px) {
+    .hire-div{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:644px) {
+    .hire-div{
+        padding: 2rem;
+    }
+    .hire-div div div {
+        display: grid;
+        justify-content: normal;
+    }
+    .search-box{
+        width:auto;
+    }
+}

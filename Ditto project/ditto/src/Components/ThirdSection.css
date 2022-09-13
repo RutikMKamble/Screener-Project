@@ -1,0 +1,52 @@
+.third-sec{
+    background-color: #EAF6F6;
+    padding: 2rem 7rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5rem;
+    text-align: left;
+}
+.third-sec div p{
+    color: rgba(81, 99, 111);
+    font-size: small;
+    padding: 0.5rem 0;
+}
+.third-sec div h2{
+    color: #22A2F8;
+    font-weight:500;
+}
+.third-sec div h5{
+    padding: 0.2rem 1rem;
+}
+.text-light{
+    color: rgba(81, 99, 111);
+    font-weight: 400;
+}
+.avani-img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.avani-desc{
+    display: flex;
+    padding-top: 0.5rem;
+}
+@media (max-width:770px) {
+    .third-sec{
+        padding: 1rem 3rem;
+        gap: 2rem;
+    }
+}
+@media (max-width:568px) {
+    .third-sec{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+@media (max-width:388px) {
+    .third-sec{
+        padding: 0.5rem 1rem;
+        
+    }
+}
+
